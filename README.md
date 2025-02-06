@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Native development related to the `Dimensions` API.  On Android, the `Dimensions.get()` method sometimes returns `undefined` before the layout is completely determined.  This example shows how to handle this situation gracefully, avoiding crashes and ensuring accurate screen dimensions.
